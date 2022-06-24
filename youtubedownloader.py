@@ -1,6 +1,6 @@
 from youtube_dl import YoutubeDL
 
-downloader = YoutubeDL({'format':'bestaudio'})
+downloader = YoutubeDL({'format':'mp3'})
 
 while True:
     try:
